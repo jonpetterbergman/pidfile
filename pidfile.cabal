@@ -21,7 +21,7 @@ location:             git://github.com/jonpetterbergman/pidfile.git
 source-repository this
 type:                 git
 location:             git://github.com/jonpetterbergman/pidfile.git
-tag:                  0.1.0.0
+tag:                  v0.1.0.0
                      
 library
   exposed-modules:     System.PidFile
