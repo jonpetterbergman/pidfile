@@ -1,5 +1,5 @@
 name:                pidfile
-version:             0.1.0.0
+version:             0.1.0.1
 synopsis:            Run an IO action protected by a pidfile
 description:         
   Run an IO action protected by a pidfile. This will prevent
@@ -15,13 +15,14 @@ extra-source-files:  ChangeLog.md
 cabal-version:       >=1.10
 homepage:            https://github.com/jonpetterbergman/pidfile
 bug-reports:         https://github.com/jonpetterbergman/pidfile/issues
+
 source-repository head
-type:                 git
-location:             git://github.com/jonpetterbergman/pidfile.git
+  type:              git
+  location:          git://github.com/jonpetterbergman/pidfile.git
 source-repository this
-type:                 git
-location:             git://github.com/jonpetterbergman/pidfile.git
-tag:                  v0.1.0.0
+  type:              git
+  location:          git://github.com/jonpetterbergman/pidfile.git
+  tag:               v0.1.0.1
                      
 library
   exposed-modules:     System.PidFile
