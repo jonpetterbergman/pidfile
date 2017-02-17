@@ -13,7 +13,16 @@ category:            System
 build-type:          Simple
 extra-source-files:  ChangeLog.md
 cabal-version:       >=1.10
-
+homepage:            https://github.com/jonpetterbergman/pidfile
+bug-reports:         https://github.com/jonpetterbergman/pidfile/issues
+source-repository head
+type:                 git
+location:             git://github.com/jonpetterbergman/pidfile.git
+source-repository this
+type:                 git
+location:             git://github.com/jonpetterbergman/pidfile.git
+tag:                  0.1.0.0
+                     
 library
   exposed-modules:     System.PidFile
   -- other-modules:       
