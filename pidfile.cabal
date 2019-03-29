@@ -1,5 +1,5 @@
 name:                pidfile
-version:             0.1.0.3
+version:             0.1.0.4
 synopsis:            Run an IO action protected by a pidfile
 description:         
   Run an IO action protected by a pidfile. This will prevent
@@ -22,7 +22,7 @@ source-repository head
 source-repository this
   type:              git
   location:          git://github.com/jonpetterbergman/pidfile.git
-  tag:               v0.1.0.3
+  tag:               v0.1.0.4
                      
 library
   exposed-modules:     System.PidFile
